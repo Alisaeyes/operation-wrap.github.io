@@ -1,0 +1,101 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{font-family: "PingFang-B";}
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none;font-family: "PingFang-B";}
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0;}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+s,i,em{font-style:normal;text-decoration:none;}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+   display:table;   /*清除浮动*/
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#31c636; text-decoration:none; }
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.w {
+	width:1200px;margin:0 auto
+	}
+
+
+
+@font-face {
+    /* font-properties */
+    font-family: PingFang-R;
+    src:url('../font/PingFang Regular.ttf');  
+}
+@font-face {
+    /* font-properties */
+    font-family: PingFang-B;
+    src:url('../font/PingFang Bold.ttf');  
+}
+@font-face {
+    /* font-properties */
+    font-family: PingFang-L;
+    src:url('../font/PingFang Light.ttf');  
+}
+@media screen and (max-width:1150px) {
+    body{
+        width:1150px;
+    }
+    .content{width: 1150px !important;font-family: "PingFang-B" !important;}
+    .notice-list li,.notice-more{
+        height:43px !important;line-height:43px !important;
+        font-family: "PingFang-B" !important;
+    }
+}
+@media screen and (min-width:1400px){
+    .content-menu,.account-ms{
+        font-size:14px !important;
+        font-family: "PingFang-B" !important;
+    }
+    .notice-title,.footer{
+        font-size:16px !important;
+        font-family: "PingFang-B" !important;
+    }
+    .notice-title{
+       padding-bottom: 4px !important;
+       font-family: "PingFang-B" !important;
+    }
+}
+
+/* header start */
+.header{width: 100%;height: 155px;}
+.header-top{width: 100%;height:50px;background:#383838;}
+.header-top-nav{text-align: right;line-height: 50px;margin-right:25px;margin-top:-1px;}
+.header-top-nav .header-top-item{display: inline-block;color: #fff;font-size: 14px;margin:0 15px;}
+.header-top-item img{vertical-align: middle;margin-top:-4px;margin-right:-5px;}
+.header-top-nav .header-top-item span{padding:8px 5px;}
+.header-top-item a{padding:8px 15px;box-sizing:border-box;color:#fff;}
+.header-top-item a:hover,a.header-top-item span:hover,.header-top-item b{background:#fc6262;}
+.header-top-item b{padding:1px 2px;font-size: 12px;}
+
+.header-nav{height: 105px;line-height:105px;background-color: #fff;border-bottom: 1px solid #cacaca;}
+.logo{margin-left: 40px;margin-right:100px;}
+.nav-list{margin-top:27px;}
+.nav-item{float:left;padding:0 10px;height: 51px;line-height:51px;}
+.nav-item a{padding:15px 10px;color:#333;}
+.nav-item a.on{border-top:5px solid #44b549;color:#44b549;}
+/* header end */

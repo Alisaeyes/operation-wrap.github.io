@@ -1,0 +1,67 @@
+/*初始化*/
+@charset "utf-8";
+@media screen and (max-width: 1350px){
+	body{ width: 1350px;}
+};
+
+
+
+/*header 开始*/
+*{margin:0;padding:0;}
+.login-header{width:100%;height: 115px;text-align: center;background-color: #fff;}
+.logo-left{float: left;width:300px;height: 100%;margin-left:80px;}
+.logo-left i{display:inline-block;margin-top:35px;width: 45px;height: 45px;background:url(../images/icon.png) no-repeat;}
+.logo-right{text-align: center;line-height:115px;margin-left:15px;}
+.logo-right span{line-height: 20px;display:inline-block;margin:5px 10px 5px 3px;font-size: 16px;font-weight:bold;color:#000;}
+
+.header-border{border-right:2px solid #000;padding-right:15px;}
+.header-image{float: right;width: 338px;height: 100%;line-height:115px;margin-right:80px;}
+.header-logo .border-r{border-right:2px solid #000;padding-right:5px;}
+/*header 结束*/
+
+/*banner开始*/
+.banner{position: relative;left:0;top:0;width:100%;}
+.banner img{max-width: 100%;}
+.login-wrap{position: absolute;top:15%;bottom:15%;right:5%;width: 25%;background: rgba(255,255,255,.2);padding:0 2%;box-sizing: border-box;border-radius:6px;padding-bottom: 2%;}
+.login-form{height:100%;}
+.login-form h3{font-size:18px;color:#4e514f;height:18%;position:relative;}
+.login-form h3 span{position: absolute;top:50%;margin-top:-3%;}
+.login-lab{width: 100%;background-color:#fff;margin-bottom:6%;height:15%;position:relative;}
+.login-icon{position:absolute;left:7%;top:45%;margin-top:-2.8%;width:7%;height: 50%;background:#252525;}
+.login-lab .icon-1{background: url(../images/login-icon_1.png) no-repeat left top;background-size: 100% 100%;}
+.login-lab .icon-2{background: url(../images/login-icon_2.png) no-repeat left top;background-size: 100% 100%;}
+.login-lab .icon-3{background: url(../images/login-icon_3.png) no-repeat left top;background-size: 100% 100%;}
+.login-lab input{position:absolute;left:20%;top:47%;font-size:16px;margin-top:-2%;}
+.login-btn{height:12%;width: 100%;background-color:#05c805;color:#fff;font-size:16px;box-shadow:1px 8px 0px #2ba93b;border-radius: 40px;margin-top:5%;cursor: pointer;}
+.login-btn:hover{background-color:#feac2c;box-shadow:1px 8px 0px #b57a1e;transition:.5s; }
+/*banner结束*/
+
+/*content开始*/
+.content{position:relative;width:100%;}
+.content-img{max-width:100%;}
+.content-wrap{position:absolute;left:16%;top:0;width:68%;height: 78%;}
+.content-list{display: inline-block;float: left;width:25%;height: 100%;text-align: center;padding: 2% 5% 0;box-sizing: border-box;}
+.content-list a{display: block;width: 100%;height:100%;border-radius: 50%;}
+.list-before{width:90%;height: 80%;}
+.before-1{background:url(../images/icon-1.png)no-repeat center center;background-size:90% 97%;}
+.before-1:hover{background:url(../images/icon01.png)no-repeat center center;background-size:90% 96%;}
+.before-2{background:url(../images/icon-2.png)no-repeat center center;background-size:92% 97%;}
+.before-2:hover{background:url(../images/icon02.png)no-repeat center center;background-size:92% 96%;}
+.before-3{background:url(../images/icon-3.png)no-repeat center center;background-size:90% 96%;}
+.before-3:hover{background:url(../images/icon03.png)no-repeat center center;background-size:90% 96%;}
+.before-4{background:url(../images/icon-4.png)no-repeat center center;background-size:92% 97%;}
+.before-4:hover{background:url(../images/icon04.png)no-repeat center center;background-size:92% 96%;}
+.list-after{margin-left:-10%;margin-top: 17%;font-size: 18px;}
+/*content结束*/
+
+/*footer 开始*/
+.footer{width:100%;padding-bottom: 35px;text-align: center;}
+/*footer结束*/
+
+
+
+
+
+
+
+
